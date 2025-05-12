@@ -28,7 +28,7 @@ const crearEncuestas = (cantidad) => {
   return encuestas;
 };
 
-// Función para mostrar la pregunta y votar
+// Función 
 const votar = (encuestas) => {
   if (!Array.isArray(encuestas)) {
     throw new Error("Las encuestas deben ser un arreglo");

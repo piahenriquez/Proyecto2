@@ -2,9 +2,9 @@
 class Encuesta {
   constructor(pregunta, opciones) {
     this.pregunta = pregunta;
-    this.opciones = opciones; // Array de strings
-    this.votos = new Array(opciones.length).fill(0); // Array de conteo de votos
-    this.respuestaUsuario = null; // Se completa cuando el usuario responde
+    this.opciones = opciones; 
+    this.votos = new Array(opciones.length).fill(0); 
+    this.respuestaUsuario = null; 
   }
 
   // Método para votar por una opción
@@ -29,7 +29,7 @@ class Encuesta {
 // Clase SistemaEncuestas
 class SistemaEncuestas {
   constructor() {
-    this.encuestas = []; // Array para almacenar las encuestas
+    this.encuestas = [];
   }
 
   crearEncuesta(cantidad) {
